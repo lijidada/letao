@@ -4,6 +4,16 @@
   background-color: #222d32;  
 
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+a:link, a:visited, a:hover, a:active{
+  text-decoration: none;
+}
 
 .mt_150{
   margin-top: 150px;
@@ -12,3 +22,20 @@
 .panel h4 {
   text-align: center;
 }
+
+body,html{
+
+  height: 100%;
+}
+
+
+
+.table.table-bordered td{
+  vertical-align: middle;
+  text-align:center;
+}
+
+
+
+
+

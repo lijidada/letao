@@ -42,6 +42,7 @@
   $('.icon-left').on('click', function () {
     $("#slide-left").toggleClass("now");
     $("#main-right").toggleClass("now");
+    $(".topbar").toggleClass("now");
   });
 
   $('.icon-right').on('click', function () {

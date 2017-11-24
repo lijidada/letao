@@ -24,7 +24,6 @@ $(function () {
           totalPages: Math.ceil(info.total / pageSize),
           onPageClicked: function (a, b, c, page) {
             console.log(page)
-
             currentPage = page;
             render();
           }

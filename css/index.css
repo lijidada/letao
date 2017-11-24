@@ -2,10 +2,11 @@
   width: 180px;
   height: 100%;
   background-color: #222d32;
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   transition:all 1s;
+
 
 }
 
@@ -90,14 +91,19 @@
   height: 100%;
   padding-left: 180px;
   transition:all 1s;
+
 }
 
 #main-right.now{
   padding-left: 0px;
-
+ 
+  
 }
 
+#main-right .topbar.now{
+  padding-right: 20px;
 
+}
 
 #main-right .topbar{
   width: 100%;
@@ -105,6 +111,9 @@
   background-color: #3c8dbc;
   line-height: 50px;
   padding: 0 20px;
+  padding-right: 200px;
+  position: fixed;
+  transition:all 1s;
 
 }
 
@@ -119,6 +128,7 @@
 
 .breadcrumb{
   margin: 20px 0;
+  margin-top: 70px;
 
 }
 
